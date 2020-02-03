@@ -1,11 +1,13 @@
-WorldFactBookAnalysis
+WFB Analysis
 ==============================
 
-This project is a project exploring the CIA World Fact Book (WFB) dataset. I am using the CIA WFB API (https://github.com/iancoleman/cia_world_factbook_api) to pull recent and historical WFB data.
+This project is a project exploring the CIA World Fact Book (WFB) dataset. (https://www.cia.gov/library/publications/the-world-factbook/)  I am using the CIA WFB API (https://github.com/iancoleman/cia_world_factbook_api) to pull recent and historical WFB data.
 
 Currently, I am looking at the changes in environmental issues and land use. This project assumes the WFB as a source of truth. It's goals are to both determine the accuracy of the data and what is missing in the data.
 
 I will import the datasets produced using my ETL scripts into Tableau Public for visualization.
+
+My Python scripts are mostly located in the [src](src) directory. Right now it is mainly data processing scripts ([link](src/data)).
 
 Project Organization
 ------------
